@@ -1,0 +1,36 @@
+body{
+    font-family: Averta PE;
+    font-style: Regular;
+    font-size:larger;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h2 {
+    font-size:xx-large;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 1px solid green; 
+}
+
+tr:last-child {
+    border-bottom: 4px solid green;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}

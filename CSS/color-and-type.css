@@ -1,0 +1,22 @@
+h1,h2 {
+    font-family: Averta PE;
+    font-style: Italic;
+    line-height: 3rem;
+}
+
+body {
+    font-family: "Times New Roman";
+    font-style: Regular;
+    font-size: large;
+    line-height: 1.25rem;
+    background-color:rgb(246, 227, 192)
+}
+
+img {
+    border: 4px solid green;
+}
+
+a {
+  display: inline; 
+}
+

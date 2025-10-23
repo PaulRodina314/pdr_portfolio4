@@ -1,0 +1,35 @@
+:root {
+  /* Light theme colors */
+  --bg-color: rgb(189, 224, 246);;
+  --text-color: #333333;
+  --nav-bg: #f8f9fa;
+  --nav-link-color: #495057;
+
+  /* Font sizes */
+  --font-size-small: 1rem;
+  --font-size-medium: 1.2rem;
+  --font-size-large: 1.5rem;
+}
+
+[data-theme="dark"] {
+  /* Dark theme colors */
+  --bg-color: #0a3895;
+  --text-color: #ffffff;
+  --nav-bg: #2d3748;
+  --nav-link-color: #ffffff;
+}
+
+/* Base styles for the navigation */
+nav {
+  background: var(--nav-bg);
+  padding: 1rem;
+  transition: background 0.3s ease;
+}
+
+nav a {
+  color: var(--nav-link-color);
+  font-size: var(--font-size-medium); /* Default font size */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}

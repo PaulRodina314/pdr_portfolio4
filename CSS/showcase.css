@@ -1,0 +1,19 @@
+img {
+    border: 4px solid green;
+}
+
+p{
+    font-weight: 500;
+    line-height: 1.5;
+    text-indent: 3em;
+}
+
+div {
+    float: left;
+    padding: .75cm;
+}
+
+
+h2 {
+    text-align:center;
+}
